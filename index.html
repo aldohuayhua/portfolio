@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- green sock link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
 </head>
 
 <body>
@@ -116,7 +118,7 @@
   <!--Main Navigation-->
 
   <!--Main layout-->
-  <main class="unique-color-dark" style="margin: 0px; padding-top: 5%;" >
+  <main class="unique-color-dark" style="margin: 0px; padding-top: 5%;">
     <div class="container">
 
       <!--Section: Best Features-->
@@ -132,8 +134,8 @@
           <div class="col-md-8">
 
             <!-- Description -->
-            <p class="grey-text">Currently enrolled as a part time student in the Rutgers University Coding Bootcamp
-              program, estimated graduation date March 2020</p>
+            <p class="grey-text">Detail oriented, goal driven and quick-learning Full Stack Web Developer with 3 years background
+              as Human Resources professional, pursuing a career change into web development. Graduated from Rutgers University Coding Bootcamp program in March 2020 where I learned many programming languages (listed below in Tech Skills) hands on by applying them into HW's and class projects.</p>
 
           </div>
           <!--Grid column-->
@@ -145,27 +147,28 @@
         <div class="row">
 
           <!--Grid column-->
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5 about-me">
             <i class="fas fa-university fa-4x orange-text"></i>
             <h4 class="my-4 font-weight-bold  white-text">Education</h4>
-            <p class="grey-text">Bachelors from Rutgers University in Human Resource Management.
+            <!-- <p class="grey-text">Bachelors from Rutgers University in Human Resource Management.
               Enrolled in Rutgers University Coding Bootcamp Program
-            </p>
+            </p> -->
+            <ul class="grey-text">Rutgers Coding Bootcamp March 2020</ul>
+            <ul class="grey-text">Rutgers University BA Human Resources Management Jan 2016</ul>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-4 mb-1">
+          <div class="col-md-4 mb-1 about-me">
             <i class="fas fa-code fa-4x orange-text"></i>
             <h4 class="my-4 font-weight-bold  white-text">Tech Skills</h4>
-            <p class="grey-text">As a present student in a bootcamp coures I have been learned the basic premise in
-              using HTML, CSS, JavaScript, NodeJS, MySQL, MongoDB, Mongoose, heroku, github, API's and many libraries
-              available online.</p>
+            <p class="grey-text">The Rutgers Coding Bootcamp taugh me hands on learning with the following programming languages
+              HTML5, CSS3, JavaScript, jQuery, Node. js, Responsive Design, Heroku, Git, User Authentication (FireBase), React. js, MySQL, MongoDB, API's and more.</p>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-4 mb-1">
+          <div class="col-md-4 mb-1 about-me">
             <i class="fas fa-campground fa-4x orange-text"></i>
             <h4 class="my-4 font-weight-bold white-text">Hobbies</h4>
             <p class="grey-text"> In my free time I enjoy activites like camping, working out, watching movies and also
@@ -246,19 +249,14 @@
               <h6 class="pb-1">
                 <i class="fas fa-laptop-code"></i>
                 <strong> Full Stack Project </strong></h6>
-            </a> 
+            </a>
             <h4 class="mb-3  orange-text"><strong>Sold Out!</strong></h4>
             <p class="grey-text">
-              This was the second project completed in the BootCamp course. The team was composed of a total 4 students
-              including my self. Some technologies used were MySQL for the database, HTML, CSS, BootStrap, NodeJS etc
+              This was the second project completed in the BootCamp course. The team was composed of a total 4 students. Some technologies used were MySQL for the database, HTML, CSS, BootStrap, NodeJS etc
             </p>
-            <h2 class="white-text">
-              My Role, Project Dificulties, solutions
-            </h2>
-            <p class="grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-              placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-              debitis aut rerum.</p>
-            <p>by <a><strong>Jessica Clark</strong></a>, 26/08/2016</p>
+            <p class="grey-text">
+              My role in this project was of a team lead, I was able to lay out foundation with pseudo code in order to show my team what the project should look like. I delegated tasks to my teamates where I saw they had strengths. I was also in charge of the UI and front end of the project.
+            </p>
             <a class="btn btn-primary btn-md" href="https://serene-sands-57538.herokuapp.com/">Live Demo</a>
             <a class="btn btn-warning btn-md" href="https://github.com/Ericv0801/ebay_proj2">GitHub Code</a>
 
@@ -284,10 +282,7 @@
               modals for this. The team involved myself and one other student.
             </p>
 
-            <p class="grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-              placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-              debitis aut rerum.</p>
-            <p>by <a><strong>Aldo Huayhua</strong></a>, 26/08/2016</p>
+            <p class="grey-text">My role in this project was to be incharge of the API calls to the Bands In Town & Zomato API's. Once the API calls were working I was able to get the JSON data to display as I wanted into the DOM.</p>
             <a class="btn btn-primary btn-md" href="https://aldohuayhua.github.io/Anticks/">Live Demo</a>
             <a class="btn btn-warning btn-md" href="https://github.com/aldohuayhua/Anticks">GitHub Code</a>
 
@@ -343,7 +338,7 @@
         <!--Grid venues n' bitesrow-->
 
         <!--Grid street fighterrow-->
-        <div class="row" style="margin-bottom: 3%;">
+        <div class="row" style="margin-bottom: 0%;">
           <div class="col-md-6 mb-4">
             <!--Carousel Wrapper-->
             <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
@@ -396,13 +391,10 @@
             </a>
             <h4 class="mb-3 orange-text"><strong>StreetFighter</strong></h4>
             <p class="grey-text">
-              This was one of our HW's in the first 3rd of the course, it involved using JavaScript to have a RPG game.
-              I decided to go with a childhood game I iked and the StreetFighter RPG was born.</p>
+              This was one of our HW's in the first 3rd of the course, it involved using JavaScript to have logic be applied to a game of our choosing.
+              I decided to go with a childhood game I iked wich was the arcade street fighter game.</p>
 
-            <p class="grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-              placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-              debitis aut rerum.</p>
-            <p>by <a><strong>Aldo Huayhua</strong></a>, 26/08/2016</p>
+            <p class="grey-text">I really had fun with this project, I used some images found online as avatars. I used flashes of alerts to get show the user how to keep on movign thorughout the game without any instructions.</p>
             <a class="btn btn-primary btn-md" href="https://aldohuayhua.github.io/etchGrite/">Live Demo</a>
             <a class="btn btn-warning btn-md" href="https://github.com/aldohuayhua/etchGrite">GitHub Code</a>
 
@@ -412,21 +404,16 @@
 
       </section>
       <!--Section: Gallery-->
-      <hr class="my-5" color="white">
 
       <!--Section: Contact-->
-      <section id="contact">
+       <!-- <section id="contact">
 
-        <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+        <h2 class="mb-5 font-weight-bold text-center white-text">Contact us</h2>
 
-        <!--Grid row-->
         <div class="row">
 
-          <!--Grid column-->
-          <div class="col-lg-5 col-md-12">
-            <!-- Form contact -->
-            <form class="p-5 grey-text">
+          <div class="col-lg-12 col-md-12">
+            <form class="p-5 white-text">
               <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
                 <input type="text" id="form3" class="form-control form-control-sm">
                 <label for="form3">Your name</label>
@@ -447,37 +434,24 @@
                 <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
               </div>
             </form>
-            <!-- Form contact -->
 
 
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-7 col-md-12">
-
-
-
-          </div>
-          <!--Grid column-->
-
         </div>
-        <!--Grid row-->
 
-      </section>
+      </section> -->
       <!--Section: Contact-->
 
     </div>
   </main>
   <!--Main layout-->
-
   <!-- Footer -->
   <footer class="page-footer unique-color-dark">
     <!-- Social buttons -->
     <div class="white-color">
       <div class="container">
         <!--Grid row-->
-        <div class="row py-4 d-flex align-items-center">
+        <div class="row py-4 d-flex align-items-center" style="margin-top: 0px;">
         </div>
         <!--Grid row-->
       </div>
@@ -488,60 +462,26 @@
       <div class="row mt-3">
 
         <!--First column-->
-        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+        <div class="col-md-4 col-lg-5 col-xl-6 mb-4">
           <h6 class="text-uppercase font-weight-bold">
-            <strong>Company name</strong>
+            <strong>Aldo Huayhua Web Developer</strong>
           </h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit.</p>
+          <p>Detail oriented, goal driven and quick-learning Full Stack Web Developer with 3 years background
+            as Human Resources professional. Pursuing a career change to use my creativity and naturally analytical way of thinking.</p>
         </div>
         <!--/.First column-->
 
         <!--Second column-->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">
-            <strong>Products</strong>
-          </h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">MDBootstrap</a>
-          </p>
-          <p>
-            <a href="#!">MDWordPress</a>
-          </p>
-          <p>
-            <a href="#!">BrandFlow</a>
-          </p>
-          <p>
-            <a href="#!">Bootstrap Angular</a>
-          </p>
-        </div>
+
         <!--/.Second column-->
 
         <!--Third column-->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">
-            <strong>Useful links</strong>
-          </h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">Your Account</a>
-          </p>
-          <p>
-            <a href="#!">Become an Affiliate</a>
-          </p>
-          <p>
-            <a href="#!">Shipping Rates</a>
-          </p>
-          <p>
-            <a href="#!">Help</a>
-          </p>
-        </div>
+
         <!--/.Third column-->
 
         <!--Fourth column-->
-        <div class="col-md-4 col-lg-3 col-xl-3">
+        <div class="col-md-4 col-lg-5 col-xl-6">
           <h6 class="text-uppercase font-weight-bold">
             <strong>Contact</strong>
           </h6>
@@ -558,11 +498,11 @@
       </div>
     </div>
     <!--/.Footer Links-->
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://github.com/aldohuayhua"> github.com/aldohuayhua</a>
-</div>
-<!-- Copyright -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://github.com/aldohuayhua"> github.com/aldohuayhua</a>
+    </div>
+    <!-- Copyright -->
 
   </footer>
   <!-- Footer -->
@@ -576,13 +516,12 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
-  <!-- green sock link -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
   <!-- Carousel options -->
   <script>
     $('.carousel').carousel({
       interval: 3000,
     })
+    gsap.from(".about-me", { duration: 2, opacity:0, y: 20 });
   </script>
 
 </body>
